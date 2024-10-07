@@ -4,7 +4,7 @@ from app.models import db
 app = create_app()
 
 with app.app_context():
-    db.create_all()  # Cria as tabelas no banco de dados
+    db.create_all() 
 
 if __name__ == '__main__':
     app.run(debug=True, port=5001)
