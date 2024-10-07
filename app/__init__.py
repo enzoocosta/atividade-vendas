@@ -11,7 +11,7 @@ def create_app():
 
     db.init_app(app)
 
-    # Registrando as rotas
+
     app.register_blueprint(user_bp)
     app.register_blueprint(product_bp)
     app.register_blueprint(sale_bp)
